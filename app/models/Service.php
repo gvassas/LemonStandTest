@@ -17,7 +17,7 @@ function init()
 
 public function makeRequest($request)
 {
-	$auth = '4lYL1MJ59TokUNjvEqFifhQOsS5dw0tPiAiE3zZt';
+	$auth = '*******************';
 	$client = self::init();
 		$response = $client->get('/'.$request);
 		$response->addHeader('authorization', $auth);
